@@ -1,0 +1,47 @@
+.mainContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    gap: 15px;
+}
+
+.post{
+    flex-grow: 1;
+    border: 1px solid #444;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.post:hover{
+    background-color: #000;
+    border: 1px solid #FFF;
+}
+
+.imageContainer{
+    position: relative;
+    height: 200px;
+}
+
+.image{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.content{
+    padding: 13px;
+}
+
+.title{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.text{
+    font-size: 18px;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.category{
+    margin-bottom: 5px;
+}

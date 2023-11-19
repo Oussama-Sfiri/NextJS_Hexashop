@@ -1,0 +1,7 @@
+.logout{
+    background-color: var(--color-primary);
+    border: none;
+    border-radius: var(--size-border-radius);
+    padding: 7px;
+    font-size: 15px;
+}

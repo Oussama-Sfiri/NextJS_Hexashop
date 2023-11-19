@@ -1,0 +1,31 @@
+.post{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+    border: 1px solid #555;
+    border-radius: 10px;
+}
+
+.post:nth-child(odd){
+    flex-direction: row-reverse;
+}
+
+.imageContainer{
+    height: 100%;
+}
+
+.image{
+    object-fit: cover;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.title{
+    font-weight: 600;
+}
+
+.text{
+    font-size: 18px;
+    color: #999;
+}

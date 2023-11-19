@@ -1,0 +1,23 @@
+.container{
+    border: 2px solid var(--color-primary);
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    position: relative;
+}
+
+.icon{
+    /* Size dyalhom mzn c'est pas la peine nmodifih */
+    cursor: pointer;
+}
+
+.switcher{
+    width: 21px;
+    aspect-ratio: 1/1; /*ici c'est a dire chhal makan lwidth ghadi ikoun lheight*/
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+}
